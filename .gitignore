@@ -1,0 +1,27 @@
+# 2023-05-13 05:18:00
+# https://www.atlassian.com/git/tutorials/saving-changes/gitignore
+
+# Ignore Mac system files
+.DS_store
+
+# Ignore node_modules folder
+node_modules
+
+# Ignore all text files
+*.txt
+
+# Ignore files related to API keys
+.env
+
+# Ignore SASS config files
+.sass-cache
+
+# ignore all logs
+*.log
+
+# match directories anywhere in the repository
+**/logs
+**/_ref
+
+# ignore xx.cmd
+xx.cmd
